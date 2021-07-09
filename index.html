@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>SpaceX</title>
+        <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+        <script src="scripts/main.js" defer></script>
+        <link rel="stylesheet" href="https://use.typekit.net/uqv2ovt.css">
+    </head>
+
+    <body>
+        <img class="logo" src="images/logo.png"/> 
+
+        <div id="layoutContainer">
+            <div class="parameters">
+                <div>
+                    <h3>Fuel</h3>
+                    <p>75,900 gal</p>
+                </div>
+                <div>
+                    <h3>Acceleration</h3>
+                    <p>46,119 m/s</p>
+                </div>
+                <div>
+                    <h3>Speed</h3>
+                    <p>11 km/s</p>
+                </div>
+                <div>
+                    <h3>Throttle</h3>
+                    <p>45,100 m/s</p>
+                </div>
+            </div>
+
+            <img class="spaceShip" src="images/spaceship.png"/>
+
+            <div class="metrics">
+                <div>
+                    <h3>Gravity Converter</h3>
+                    <button onclick="gravityConverter()">
+                        <p>Check</p>
+                    </button>
+                </div>
+                <div>
+                    <h3>1 Mars Mile Converter</h3>
+                    <button onclick="marsMilesConverter()">
+                        <p>Check</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="environment">
+                <div>
+                    <h3>Current Gravity</h3>
+                    <button onclick="currentGravity()">
+                        <p>Check</p>
+                    </button>
+                </div>
+                <div>
+                    <h3>Distance Travelled</h3>
+                    <button onclick="distanceTravelled()">
+                        <p>Check</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
